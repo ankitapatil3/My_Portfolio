@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body header {
+  background-color: rgba(214, 172, 172, 0.897);
+  height: 80px;
+}
+body header .logo {
+  width: 35%;
+  height: 80px;
+  margin: 0;
+  float: left;
+  animation: ani1 3s ease-in-out 0.5s infinite alternate-reverse;
+}
+@keyframes ani1 {
+  3% {
+    transform: rotate(10deg);
+  }
+  10% {
+    transform: skew(20deg);
+  }
+  10% {
+    transform: transolate(5px, 5px);
+  }
+  5% {
+    transform: skew(20px);
+  }
+  5% {
+    transform: rotate(10deg);
+  }
+}
+body header nav {
+  width: 65%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: row wrap;
+  height: 80px;
+  font-size: 26px;
+}
+body header nav a {
+  text-decoration: none;
+  color: rgb(59, 8, 179);
+}
+body header nav a:hover {
+  color: white;
+}/*# sourceMappingURL=stskill.css.map */

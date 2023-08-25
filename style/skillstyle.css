@@ -1,0 +1,114 @@
+body .skill {
+  height: 440px;
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  position: relative;
+  top: 80px;
+  border: 1px solid black;
+}
+@media screen and (max-width: 830px) {
+  body .skill {
+    width: 80%;
+    margin-top: -50px;
+    height: 430px;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 700px) {
+  body .skill {
+    width: 75%;
+    margin-top: -235px;
+    margin-right: 20px;
+    background-color: white;
+  }
+}
+@media screen and (max-width: 300px) {
+  body .skill {
+    margin-top: 10px;
+  }
+}
+body .skill h1 {
+  padding-top: 20px;
+  text-align: center;
+}
+@media screen and (max-width: 830px) {
+  body .skill h1 {
+    padding-top: 20px;
+  }
+}
+@media screen and (max-width: 700px) {
+  body .skill h1 {
+    display: none;
+  }
+}
+body .skill .main-contain {
+  padding-top: 20px;
+  margin: auto;
+  width: 80%;
+}
+@media screen and (max-width: 830px) {
+  body .skill .main-contain {
+    padding-top: 10px;
+    margin: auto;
+    width: 80%;
+  }
+}
+@media screen and (max-width: 700px) {
+  body .skill .main-contain {
+    margin-top: -50px;
+    padding-top: -30px;
+    width: 80%;
+  }
+}
+body .skill .main-contain h3 {
+  text-transform: uppercase;
+}
+@media screen and (max-width: 700px) {
+  body .skill h3 {
+    width: 75%;
+    margin-top: -90px;
+    padding-top: 80px;
+    margin-left: 20px;
+  }
+}
+body .skill .container {
+  width: 90%;
+  background-color: lightgray;
+}
+@media screen and (max-width: 700px) {
+  body .skill .container {
+    width: 75%;
+    margin-top: 4px;
+    padding-top: 0px;
+    margin-left: 20px;
+  }
+}
+body .skill .percent {
+  color: white;
+  text-align: right;
+  font-size: 18px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+@media screen and (max-width: 830px) {
+  body .skill .percent {
+    font-size: 14px;
+  }
+}
+body .skill .html {
+  width: 90%;
+  background-color: green;
+}
+body .skill .css {
+  width: 80%;
+  background-color: rgb(196, 28, 28);
+}
+body .skill .js {
+  width: 70%;
+  background-color: royalblue;
+}
+body .skill .react {
+  width: 60%;
+  background-color: rgb(229, 9, 236);
+}/*# sourceMappingURL=skillstyle.css.map */

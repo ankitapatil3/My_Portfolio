@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+
+$primary-color:red;
+$secondary-color:green;
+$blue:#1288e9f5;
+
+
+
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+   box-sizing: border-box;
+//    width: 100%;
+
+}
+body{
+    .services{
+        @media screen and (max-width:830px){
+            height:530px;
+            width: 70%;
+            padding: 2px;
+            background-color: white;
+            position:relative;
+            top:60px;
+            border: 1px solid black;
+            margin-right: 20px;
+            overflow: hidden;
+            font-size: 14px;
+            left:-60px;
+        }
+        @media screen and (max-width:700px){
+            height:340px;
+            width: 70%;
+            padding: 2px;
+            background-color: white;
+            float: right;
+           
+            border: 1px solid black;
+            // position: relative;
+            overflow: hidden;
+            font-size: 10px;
+            line-height: 5px;
+            margin-top:-340px;
+            // margin-top:-280px;
+            margin-right: -20px;
+        }
+        @media screen and (max-width:300px){
+            margin-top:5px;
+        }
+        height:440px;
+        width: 80%;
+        margin:auto;
+        background-color: white;
+        // position:relative;
+        margin-top:80px;
+        border: 1px solid black;
+    
+    h1{
+        @media screen and (max-width:2020px){
+            padding-top: 10px;
+            text-align: center;
+            padding-bottom: 0px;
+        }
+        @media screen and (max-width:700px){
+            padding-top: 20px;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        padding-top: 18px;
+      text-align: center;
+      padding-bottom: 20px;
+    }
+    .main-service{
+        @media screen and (max-width:1000px){
+            padding: 10px 10px;
+        }
+     display: grid;
+        width: 90%;
+        column-gap: 45px;
+        row-gap: 40px;
+    margin: auto;
+    justify-content:space-evenly;
+     align-content: center;
+      padding: 20px 30px;
+   
+     .para{
+        @media screen and (max-width:2020px){
+            line-height: 40px;
+            font-size:22px;
+            overflow: hidden;
+        }
+        @media screen and (max-width:940px){
+            line-height: 40px;
+            font-size:18px;
+            overflow: hidden;
+        }
+        @media screen and (max-width:700px){
+            line-height: 25px;
+            font-size:16px;
+            overflow: hidden;
+            height: 170px;
+        }
+        line-height: 28px;
+        font-size:27px;
+     }
+        .dp{
+           padding-top: -10px;
+            overflow: hidden;
+            @media screen and (max-width:700px){
+                margin-top:-20px;
+            }
+        }
+            .abpp{
+                @media screen and (max-width:2020px){
+                    line-height: 12px;
+                    font-size:18px;
+                    overflow: hidden;
+                }
+                @media screen and (max-width:1060px){
+                    line-height: 10px;
+                    font-size:15px;
+                    overflow: hidden;
+                }
+                @media screen and (max-width:900px){
+                    line-height: 10px;
+                    font-size:15px;
+                    overflow: hidden;
+                }
+                @media screen and (max-width:700px){
+                    margin-top: 4px;
+                    line-height: 20px;
+                    font-size:15px;
+                    overflow: hidden;
+                   
+                }
+                line-height: 27px;
+                font-size: 25px;
+
+            }
+        }
+     }
+        
+    }
+
+

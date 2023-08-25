@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body .services {
+  height: 440px;
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  margin-top: 80px;
+  border: 1px solid black;
+}
+@media screen and (max-width: 830px) {
+  body .services {
+    height: 530px;
+    width: 70%;
+    padding: 2px;
+    background-color: white;
+    position: relative;
+    top: 60px;
+    border: 1px solid black;
+    margin-right: 20px;
+    overflow: hidden;
+    font-size: 14px;
+    left: -60px;
+  }
+}
+@media screen and (max-width: 700px) {
+  body .services {
+    height: 340px;
+    width: 70%;
+    padding: 2px;
+    background-color: white;
+    float: right;
+    border: 1px solid black;
+    overflow: hidden;
+    font-size: 10px;
+    line-height: 5px;
+    margin-top: -340px;
+    margin-right: -20px;
+  }
+}
+@media screen and (max-width: 300px) {
+  body .services {
+    margin-top: 5px;
+  }
+}
+body .services h1 {
+  padding-top: 18px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+@media screen and (max-width: 2020px) {
+  body .services h1 {
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 0px;
+  }
+}
+@media screen and (max-width: 700px) {
+  body .services h1 {
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+}
+body .services .main-service {
+  display: grid;
+  width: 90%;
+  -moz-column-gap: 45px;
+       column-gap: 45px;
+  row-gap: 40px;
+  margin: auto;
+  justify-content: space-evenly;
+  align-content: center;
+  padding: 20px 30px;
+}
+@media screen and (max-width: 1000px) {
+  body .services .main-service {
+    padding: 10px 10px;
+  }
+}
+body .services .main-service .para {
+  line-height: 28px;
+  font-size: 27px;
+}
+@media screen and (max-width: 2020px) {
+  body .services .main-service .para {
+    line-height: 40px;
+    font-size: 22px;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 940px) {
+  body .services .main-service .para {
+    line-height: 40px;
+    font-size: 18px;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 700px) {
+  body .services .main-service .para {
+    line-height: 25px;
+    font-size: 16px;
+    overflow: hidden;
+    height: 170px;
+  }
+}
+body .services .main-service .dp {
+  padding-top: -10px;
+  overflow: hidden;
+}
+@media screen and (max-width: 700px) {
+  body .services .main-service .dp {
+    margin-top: -20px;
+  }
+}
+body .services .main-service .abpp {
+  line-height: 27px;
+  font-size: 25px;
+}
+@media screen and (max-width: 2020px) {
+  body .services .main-service .abpp {
+    line-height: 12px;
+    font-size: 18px;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 1060px) {
+  body .services .main-service .abpp {
+    line-height: 10px;
+    font-size: 15px;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 900px) {
+  body .services .main-service .abpp {
+    line-height: 10px;
+    font-size: 15px;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 700px) {
+  body .services .main-service .abpp {
+    margin-top: 4px;
+    line-height: 20px;
+    font-size: 15px;
+    overflow: hidden;
+  }
+}/*# sourceMappingURL=about.css.map */

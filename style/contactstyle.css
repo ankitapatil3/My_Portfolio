@@ -1,0 +1,275 @@
+body .contact {
+  height: 440px;
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  position: relative;
+  top: 80px;
+  border: 1px solid black;
+}
+@media screen and (max-width: 830px) {
+  body .contact {
+    width: 70%;
+    margin: auto;
+    right: 20px;
+  }
+}
+@media screen and (max-width: 700px) {
+  body .contact {
+    width: 70%;
+    left: 30px;
+    margin-top: -350px;
+    height: 470px;
+    right: 20px;
+  }
+}
+@media screen and (max-width: 300px) {
+  body .contact {
+    top-margin: 62px;
+    left: -18px;
+  }
+}
+body .contact h1 {
+  padding-top: 40px;
+  float: right;
+  margin-right: 210px;
+}
+@media screen and (max-width: 700px) {
+  body .contact h1 {
+    margin-top: -190px;
+  }
+}
+@media screen and (max-width: 524px) {
+  body .contact h1 {
+    text-align: center;
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 506px) {
+  body .contact h1 {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 26px;
+  }
+}
+body .contact .main-containc .gmap {
+  float: left;
+  width: 45%;
+  height: 360px;
+  margin-top: 40px;
+  margin-left: 40px;
+  background-color: aqua;
+}
+@media screen and (max-width: 1140px) {
+  body .contact .main-containc .gmap {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 830px) {
+  body .contact .main-containc .gmap {
+    height: 300px;
+    width: 200px;
+    margin-top: -0.5px;
+  }
+}
+@media screen and (max-width: 700px) {
+  body .contact .main-containc .gmap {
+    height: 290px;
+    margin-top: -80px;
+  }
+}
+@media screen and (max-width: 680px) {
+  body .contact .main-containc .gmap {
+    height: 290px;
+    width: 40%;
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 500px) {
+  body .contact .main-containc .gmap {
+    height: 120px;
+    width: 70%;
+    margin-left: 40px;
+    margin-top: -130px;
+    float: left;
+  }
+}
+body .contact .main-containc .gmap iframe {
+  height: 100%;
+  width: 100%;
+}
+body .contact .main-containc .contactdata {
+  width: 45%;
+  float: right;
+  margin-top: 20px;
+}
+@media screen and (max-width: 700px) {
+  body .contact .main-containc .contactdata {
+    margin-left: 30px;
+    margin-top: -260px;
+  }
+}
+@media screen and (max-width: 680px) {
+  body .contact .main-containc .contactdata {
+    margin-left: 30px;
+    margin-top: -60px;
+  }
+}
+@media screen and (max-width: 574px) {
+  body .contact .main-containc .contactdata {
+    margin-left: 30px;
+    margin-top: -250px;
+  }
+}
+@media screen and (max-width: 500px) {
+  body .contact .main-containc .contactdata {
+    float: left;
+    width: 70%;
+    margin-left: 40px;
+    margin-top: 4px;
+  }
+}
+body .contact .main-containc .contactdata .fname, body .contact .main-containc .contactdata .lname {
+  height: 35px;
+  border: none;
+  margin-bottom: 25px;
+  width: 360px;
+  font-size: 15px;
+  background-color: lightgrey;
+}
+@media screen and (max-width: 1140px) {
+  body .contact .main-containc .contactdata .fname, body .contact .main-containc .contactdata .lname {
+    width: 270px;
+  }
+}
+@media screen and (max-width: 830px) {
+  body .contact .main-containc .contactdata .fname, body .contact .main-containc .contactdata .lname {
+    width: 200px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 700px) {
+  body .contact .main-containc .contactdata .fname, body .contact .main-containc .contactdata .lname {
+    max-width: 180px;
+    height: 40px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 680px) {
+  body .contact .main-containc .contactdata .fname, body .contact .main-containc .contactdata .lname {
+    max-width: 180px;
+    height: 40px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 600px) {
+  body .contact .main-containc .contactdata .fname, body .contact .main-containc .contactdata .lname {
+    max-width: 140px;
+    height: 40px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 500px) {
+  body .contact .main-containc .contactdata .fname, body .contact .main-containc .contactdata .lname {
+    max-width: 200px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    height: 35px;
+  }
+}
+@media screen and (max-width: 400px) {
+  body .contact .main-containc .contactdata .fname, body .contact .main-containc .contactdata .lname {
+    max-width: 200px;
+    margin-left: -10px;
+  }
+}
+@media screen and (max-width: 340px) {
+  body .contact .main-containc .contactdata .fname, body .contact .main-containc .contactdata .lname {
+    max-width: 150px;
+    margin-left: -10px;
+  }
+}
+body .contact .main-containc .contactdata .mname {
+  width: 360px;
+  height: 100px;
+  background-color: rgb(243, 237, 237);
+}
+@media screen and (max-width: 1140px) {
+  body .contact .main-containc .contactdata .mname {
+    width: 270px;
+  }
+}
+@media screen and (max-width: 830px) {
+  body .contact .main-containc .contactdata .mname {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 700px) {
+  body .contact .main-containc .contactdata .mname {
+    width: 180px;
+    height: 40px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 600px) {
+  body .contact .main-containc .contactdata .mname {
+    max-width: 140px;
+    height: 40px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 500px) {
+  body .contact .main-containc .contactdata .mname {
+    max-width: 240px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 5px;
+    height: 35px;
+  }
+}
+@media screen and (max-width: 400px) {
+  body .contact .main-containc .contactdata .mname {
+    max-width: 200px;
+    margin-left: -10px;
+  }
+}
+@media screen and (max-width: 340px) {
+  body .contact .main-containc .contactdata .mname {
+    max-width: 150px;
+    margin-left: -10px;
+  }
+}
+body .contact .main-containc .contactdata .btn {
+  width: 130px;
+  height: 50px;
+  background-color: rgba(126, 8, 134, 0.993);
+  border-radius: 10px;
+  color: white;
+  margin-left: 70px;
+}
+@media screen and (max-width: 830px) {
+  body .contact .main-containc .contactdata .btn {
+    margin-left: 40px;
+  }
+}
+@media screen and (max-width: 700px) {
+  body .contact .main-containc .contactdata .btn {
+    margin-left: 20px;
+    width: 60%;
+    height: 50px;
+    margin-top: -15px;
+  }
+}
+@media screen and (max-width: 500px) {
+  body .contact .main-containc .contactdata .btn {
+    margin-left: -140px;
+    width: 60%;
+    height: 40px;
+    margin-top: 70px;
+    float: left;
+  }
+}
+body .contact .main-containc .contactdata .btn:hover {
+  background-color: hsla(293, 77%, 34%, 0.963);
+}/*# sourceMappingURL=contactstyle.css.map */
